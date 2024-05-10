@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genesis TEST</title>
+
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- js링크 -->
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/jquery-migrate-3.4.0.min.js"></script>
+    <script src="./js/index.js"></script>
+
+    <!-- 링크 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index_media.css">
+
+    <!-- 아이콘/글씨체 링크 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Nanum+Gothic&family=Space+Grotesk&display=swap" rel="stylesheet">
+
+    
+
+</head>
+<body>
+    
+   <div id="Wrap">
+    <!-- header -->
+    <header>
+        <div>
+          <h1>
+            <a href="#"><img src="./img/logo.png" alt="제네시스 로고"></a>
+          </h1>
+          <nav>
+             <h2 class="hide">메인네비게이션</h2>
+             <ul>
+              <li><a href="#">모델</a></li>
+              <li><a href="#">구매</a></li>
+              <li><a href="#">체험</a></li>
+              <li><a href="#">멤버스</a></li>
+              <li><a href="#">제네시스</a></li>
+              <li><a href="#">고객센터</a></li>
+              <li><a href="#">마이페이지</a></li>
+             </ul>
+             <form action="#">
+              <fieldset>
+              <legend class="hide">검색</legend>
+              <label for="userSearch"></label>
+              <input id="userSearch" type="text" placeholder="검색어를 입력해주세요.">
+             </fieldset>
+             </form>
+             <p class="close"><i class="fa-solid fa-xmark"></i></p>
+          </nav>
+          <div id="box">
+              <ul>
+               <li><a href="#">고객센터</a></li>
+               <li><a href="#">마이페이지</a></li>
+              </ul>
+              <form action="#">
+               <fieldset>
+               <legend class="hide">검색</legend>
+               <label for="userSearch"><i class="fa-solid fa-magnifying-glass" id="glass"></i></label>
+               <input id="userSearch" type="text" class="search">
+              </fieldset>
+              </form>
+              <p class="icon"><i class="fa-solid fa-id-badge"></i></p>
+              <p class="btn">
+                 <i class="fa-solid fa-bars"></i>
+              </p>
+              <p class="btnNav">
+                 <i class="fa-solid fa-bars"></i>
+              </p>
+          </div>
+          </div>
+      </header>
+  
+     <!-- <header>
+        <div>
+            <h1>
+                <a href="#">
+                    <img src="./img/logo.png" alt="로코">
+                </a>
+            </h1>
+            <nav>
+                <h2 class="hide">메인네비게이션</h2>
+                    <ul class="mNav">
+                        <li><a href="#">모델</a></li>
+                        <li><a href="#">구매</a></li>
+                        <li><a href="#">체험</a></li>
+                        <li><a href="#">멤버스</a></li>
+                        <li><a href="#">제네시스</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">마이페이지</a></li>
+                    </ul>
+            </nav>
+
+            <div id="box">
+                <ul class="sNav">
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">마이 페이지</a></li>
+                </ul>
+                <form action="#">
+                    <fieldset>
+                        <legend class="hide">검색</legend>
+                        <input type="text" id="userSearch" placeholder="검색어를 입력해주세요.">
+                        <label for="userSearch">
+                            <i class="fa-solid fa-magnifying-glass" id="glass"></i>
+                        </label>
+                    </fieldset>
+                </form>
+                <p class="icon">
+                    <i class="fa-solid fa-id-badge"></i>
+                </p>
+            </div>
+        </div>
+     </header> -->
+
+    <!-- article-->
+    <!-- box01 -->
+    <article id="box01" class="swiper">
+        <ul>
+            <li><a href="#">더 알아보기 ></a></li>
+            <li><a href="#">견적내기 ></a></li>
+        </ul>
+      <div class="swiper-wrapper"> 
+        <!-- big01 -->
+        <section id="big01" class="swiper-slide no01">
+            <div id="small">
+                <p class="top">CONCEPT CAR</p>
+                <h3>GENESIS GV80 COUPE CONCEPT</h3>
+                <p class="end">다이내믹한 볼륨과 역동적 실루엣의 COUPE DNA</p>
+            </div>
+        </section>
+        <!-- big02 -->
+        <section id="big02" class="swiper-slide no02">
+            <div id="small">
+                <span></span>
+                <p class="top">GENESIS</p>
+                <h3>G90</h3>
+                <p class="end">2023년형 출시</p>
+            </div>
+        </section>
+        <!-- big03 -->
+        <section id="big03" class="swiper-slide no03">
+            <div id="small">
+                <span></span>
+                <p class="top">ELECTRIFIED</p>
+                <h3>G80</h3>
+                <p class="end">2023년형 출시</p>
+            </div>
+        </section>
+        <!-- big04 -->
+        <section id="big04" class="swiper-slide no04">
+            <div id="small">
+                <span></span>
+                <p class="top">GENESIS</p>
+                <h3>GV60</h3>
+                <p class="end">2023년형 출시</p>
+            </div>
+        </section>
+        <!-- big05 -->
+        <section id="big05" class="swiper-slide no05">
+            <div id="small">
+                <p class="top">GENESIS</p>
+                <h3>GV80</h3>
+                <p class="end">2023년형 출시</p>
+            </div>
+        </section>
+        <!-- big06 -->
+        <section id="big06" class="swiper-slide no06">
+            <div id="small">
+                <p class="top">GENESIS</p>
+                <h3>G80</h3>
+                <p class="end">2023년형 출시</p>
+            </div>
+        </section>
+        <!-- big07 -->
+        <section id="big07" class="swiper-slide no07">
+            <div id="small">
+                <p class="top">ELECTRIFIED</p>
+                <h3>GV70</h3>
+                <p class="end">또 다른 감동을 충전하는 시간</p>
+            </div>
+        </section>
+        <!-- big08 -->
+        <section id="big08" class="swiper-slide no08">
+            <div id="small">
+                <h3>미래를향한 대담한 비전</h3>
+                <P>FUTURING GENESIS</P>
+            </div>
+        </section>
+      </div> 
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </article>
+     <!--  -->
+
+     <!-- box02 -->
+     <article id="box02">
+        <div>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="./img/box02img.gif01.gif" alt="이미지1">
+                        <figcaption>견적내기</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/box02img.gif02.gif" alt="이미지2">
+                        <figcaption>구매 상담 신청</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/box03img.gif03.gif" alt="이미지3">
+                        <figcaption>시승 신청</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./img/box02img.gif04.gif" alt="이미지4">
+                        <figcaption>카탈로그</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </article>
+     <!--  -->
+
+     <!-- box03 -->
+     <article id="box03">
+        <div>
+            <!-- model -->
+            <section class="model">
+                <h3>OUR MODELS</h3>
+                <p>역동적이면서도 우아한 디자인과 최첨단 기술을 탑재한 제네시스 브랜드의 라인업을 살펴보세요.</p>
+                <div>
+                <span>ALL
+                  <i class="fa-solid fa-sort-down" id="iconedown"></i>
+                  <i class="fa-solid fa-caret-up" id="iconeup"></i>
+                </span>
+                <div class="toggle">
+                  <ul>
+                      <li>
+                          <a href="#allpic">ALL</a></li>
+                      <li>
+                          <a href="#SEDAN">SEDAN</a></li>
+                      <li>
+                          <a href="#SUV">SUV</a></li>
+                  </ul>
+                </div>
+                </div>
+            </section>
+            <!--  -->
+
+            <!-- show -->
+            <section class="show">
+                <ul class="all" id="allpic" name="all">
+                    <li id="SEDAN">
+                        <figure>
+                            <figcaption>
+                                <dl>
+                                    <dt>G90</dt>
+                                    <dd>LONG WHEEL BASE <span>NEW</span></dd>
+                                </dl>
+                            </figcaption>
+                            <img src="./img/box03_pic01.png.png" alt="자동차1">
+                        </figure>
+                        <p><button>자세히보기</button></p>
+                    </li>
+                    <li id="SEDAN">
+                        <figure>
+                            <figcaption>
+                                <dl>
+                                    <dt>G90</dt>
+                                    <dd><span>NEW</span></dd>
+                                </dl>
+                            </figcaption>
+                            <img src="./img/box03_pic02.png.png" alt="자동차2">
+                        </figure>
+                        <p><button>자세히보기</button></p>
+                    </li>
+                    <li id="SEDAN">
+                        <figure>
+                            <figcaption>
+                                <dl>
+                                    <dt>G80</dt>
+                                </dl>
+                            </figcaption>
+                            <img src="./img/box03_pic03.png.png" alt="자동차3">
+                        </figure>
+                        <p><button>자세히보기</button></p>
+                    </li>
+                    <li id="SEDAN">
+                        <figure>
+                            <figcaption>
+                                <dl>
+                                    <dt>G80</dt>
+                                    <dd>ELECTRIFIED<span>NEW</span></dd>
+                                </dl>
+                            </figcaption>
+                            <img src="./img/box03_pic04.png.png" alt="자동차4">
+                        </figure>
+                        <p><button>자세히보기</button></p>
+                    </li>
+                    <li id="SEDAN">
+                        <figure>
+                            <figcaption>
+                                <dl>
+                                    <dt>G70</dt>
+                                </dl>
+                            </figcaption>
+                            <img src="./img/box03_pic05.png.png" alt="자동차5">
+                        </figure>
+                        <p><button>자세히보기</button></p>
+                    </li>
+                    <li id="SEDAN">
+                        <figure>
+                            <figcaption>
+                                <dl>
+                                    <dt>G70</dt>
+                                    <dd>SHOOTHING BRAKE</dd>
+                                </dl>
+                            </figcaption>
+                            <img src="./img/box03_pic06.png.png" alt="자동차6">
+                        </figure>
+                        <p><button>자세히보기</button></p>
+                    </li>
+                    <li id="SUV">
+                        <figure>
+                            <figcaption>
+                                <dl>
+                                    <dt>GV80</dt>
+                                    <dd><span>NEW</span></dd>
+                                </dl>
+                            </figcaption>
+                            <img src="./img/box03_pic07.png.png" alt="자동차7">
+                        </figure>
+                        <p><button>자세히보기</button></p>
+                    </li>
+                    <li id="SUV">
+                        <figure>
+                            <figcaption>
+                                <dl>
+                                    <dt>GV70</dt>
+                                </dl>
+                            </figcaption>
+                            <img src="./img/box03_pic08.png.png" alt="자동차8">
+                        </figure>
+                        <p><button>자세히보기</button></p>
+                    </li>
+                    <li id="SUV">
+                        <figure>
+                            <figcaption>
+                                <dl>
+                                    <dt>GV70</dt>
+                                    <dd>ELECTRIFIED<span>EV</span></dd>
+                                </dl>
+                            </figcaption>
+                            <img src="./img/box03_pic09.png.png" alt="자동차9">
+                        </figure>
+                        <p><button>자세히보기</button></p>
+                    </li>
+                    <li id="SUV">
+                        <figure>
+                            <figcaption>
+                                <dl>
+                                    <dt>GV60</dt>
+                                    <dd><span>NEW</span></dd>
+                                </dl>
+                            </figcaption>
+                            <img src="./img/box03_pic10.png.png" alt="자동차10">
+                        </figure>
+                        <p><button>자세히보기</button></p>
+                    </li>
+                </ul>
+                <ul class="circle">
+                    <li class="prevTo">event01</li>
+                    <li class="fixed">event02</li>
+                    <li class="nextTo">event03</li>
+                </ul>
+            </section>
+            <!--  -->
+        </div>
+     </article>
+
+     <!-- box04 -->
+     <article id="box04">
+        <div>
+            <section>
+                <div class="big">
+                    <div class="small">
+                        <h3>제네시스, ‘2022 레드 닷 어워드’에서 4개 부문 수상</h3>
+                        <p>"제네시스가 독일 노르트하인 베스트팔린 디자인센터가 주관하는 ‘2022 레드 닷 어워드 : 브랜드 & 커뮤니케이션 디자인’에서 최우수상 1개, 본상 3개, 총 4개 디자인상을 수상하였습니다. 제네시스의 전용 전시관 ‘제네시스 수지’가 리테일 디자인 부문에서 ‘레드 닷 어워드 : 최우수상’을 수상했으며, ‘제네시스 스튜디오 안성’과 ‘제네시스 하우스 뉴욕’은 본상 수상, ‘제네시스 GV60 인스토어 캠페인 : Light & Wonder’은 ‘공간 커뮤니케이션’ 부문에서 본상을 수상하였습니다."</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+     </article>
+     <!--  -->
+
+     <!-- box05 -->
+     <article id="box05">
+        <div>
+            <h4>What People Say About Us</h4>
+            <p>제네시스의 디자인과 고유한 감각을 반영한 현대적 공간으로 여러분을 초대합니다. 제네시스에 관한 다양한 체험으로 당신만의 제네시스를 찾는 여정을 지원합니다.</p>
+            <div id="intro">
+                <dl>
+                    <dt>콘셉트카</dt>
+                    <dd>제네시스의 디자인 철학을 보여주는 콘셉트카. 탄탄한 균형감과 장인정신이 깃든 완벽한 디테일을 확인해보세요.</dd>
+                    <dd><img src="./img/box05_pic01.png.jpg" alt="사진1"></dd>
+                </dl>
+                <dl>
+                    <dt>시승 신청</dt>
+                    <dd>가까운 제네시스 시승 센터에서 제네시스만의 특별함을 체험하실 수 있습니다. 자세한 내용을 확인해보세요.</dd>
+                    <dd><img src="./img/box05_pic02.png.jpg" alt="사진2"></dd>
+                </dl>
+                <dl>
+                    <dt>로드트립</dt>
+                    <dd>제네시스와 내셔널지오그래픽 트래블러와 함께하는 서사적 여행 제네시스 로드트립을 통해 자세한 정보를 확인하세요.</dd>
+                    <dd><img src="./img/box05_pic03.png.jpg" alt="사진3"></dd>
+                </dl>
+                <dl>
+                    <dt>콘셉트카</dt>
+                    <dd>제네시스의 디자인 철학을 보여주는 콘셉트카. 탄탄한 균형감과 장인정신이 깃든 완벽한 디테일을 확인해보세요.</dd>
+                    <dd><img src="./img/box05_pic01.png.jpg" alt="사진4"></dd>
+                </dl>
+            </div>
+        </div>
+     </article>
+     <!--  -->
+
+     <!-- box06 -->
+    <article id="box06">
+        <div>
+            <h4>Explore Driving</h4>
+            <p>제네시스와 함께하는 서사적 여행을 경험하세요.</p>
+
+            <!-- gallery -->
+            <div id="gallery">
+                <figure>
+                    <figcaption class="hide">상세이미지</figcaption>
+                    <img src="./img/box06_pic01.png.jpg" alt="상세이미지">
+                </figure>
+                <div id="show">
+                    <div id="all">
+                        <ul>
+                            <li>
+                              <img src="./img/box06_pic01.png.jpg" alt="갤러리1">
+                            </li>
+                            <li>
+                              <img src="./img/box06_pic02.png.jpg" alt="갤러리2">
+                            </li>
+                            <li>
+                              <img src="./img/box06_pic03.png.jpg" alt="갤러리3">
+                            </li>
+                            <li>
+                              <img src="./img/box06_pic04.png.jpg" alt="갤러리4">
+                            </li>
+                            <li>
+                              <img src="./img/box06_pic05.png.jpg" alt="갤러리5">
+                            </li>
+                            <li>
+                              <img src="./img/box06_pic06.png.jpg" alt="갤러리6">
+                            </li>
+                            <li>
+                              <img src="./img/box06_pic07.png.jpg" alt="갤러리7">
+                            </li>
+                            <li>
+                              <img src="./img/box06_pic08.png.jpg" alt="갤러리8">
+                            </li>
+                            <li>
+                              <img src="./img/box06_pic09.png.jpg" alt="갤러리9">
+                            </li>
+                            <li>
+                              <img src="./img/box06_pic10.png.jpg" alt="갤러리10">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="prev"><i class="fa-solid fa-caret-left"></i></p>
+                <p class="next"><i class="fa-solid fa-caret-right"></i></p>
+            </div>
+
+            <!-- info -->
+            <div id="info">
+                <p>산과 강 그리고 호수에서 자연의 소리와 함께 여정은 지속된다.
+                    바다와도 같은 충주호의 너른 풍광을 마주하며 Electrified GV70와 함께 로드트립을 떠납니다.</p>
+                <p>굴곡진 해안을 따라 우아하게 달리다가 산비탈을 역동적으로 오르내리며 태곳적 자연을 탐험한다.
+                    바다 위에는 Electrified G80가, 바다 아래는 수중 생태계가 생동하는 울릉도로 로드트립을 떠납니다.</p>
+                <p>
+                    <button>View more</button>
+                    <button>Purchase now</button>
+                </p>
+            </div>
+        </div>
+    </article>
+    <!--  -->
+
+    <!-- box07 -->
+    <article id="box07">
+        <div>
+            <p>Instagram</p>
+            <h5>EXPERIENCE GENESIS</h5>
+            </div>
+            <ul>
+                <li>
+                    <dl>
+                        <dt>Athletic Elegance at its most dynamic. This is Genesis GV80 Coupe Concept.</dt>
+                        <dd>*Concept vehicle shown
+                            #Genesis #제네시스 #GV80Coupe #Concept</dd>
+                    </dl>
+                    <img src="./img/box07.jpg1.jpg" alt="사진1">
+                </li>
+                <li>
+                    <dl>
+                        <dt>Genesis X Convertible is not just for moving through the world. It’s for feeling every mile of it, too.</dt>
+                        <dd>*Concept vehicle shown
+                            #Genesis #제네시스 #XConvertible #Concept</dd>
+                    </dl>
+                    <img src="./img/box07.jpg2.jpg" alt="사진2">
+                </li>
+                <li>
+                    <dl>
+                        <dt>The surreal future of Genesis, realized.</dt>
+                        <dd>*Concept vehicle shown
+                            #Genesis #제네시스 #XConvertible #Concept</dd>
+                    </dl>
+                    <img src="./img/box07.jpg3.jpg" alt="사진3">
+                </li>
+            </ul>
+            <p>
+                <button>더보기
+                    <i class="fa-solid fa-plus"></i>
+                </button>
+            </p>
+    </article>
+    <!--  -->
+
+    <!-- box08 -->
+    <article id="box08">
+        <h5>질문 & 고객센터 및 A/S 안내</h5>
+        <div>
+            <!-- qna -->
+            <section class="qna">
+                <h6>질문하기</h6>
+                <dl>
+                    <dt>제네시스 구입 후 세금계산서 발급받으려고 하는데 어떻게 해야하나요?</dt>
+                    <dd>
+                        <figure>
+                            <figcaption>[개인사업자 및 법인사업자 구입고객]
+
+                                2010년 7월 1일부터 세금계산서가 서면이 아닌 전자 세금계산서로 발행이 됩니다. 사이트( http://e-vat.hyundai.com ) 에서 발급받으시면 됩니다.
+                            </figcaption>
+                            <img src="./img/box08_pic01.png.png" alt="내용1"> 
+                        </figure>
+                    </dd>
+                    <dt>일정기간 이상 지난 차량은 자동차세가 경감된다고 하는데 그 내용을 알고 싶습니다.</dt>
+                    <dd>
+                        <figure>
+                            <figcaption>자가용 승용차의 차령 3년이상 차량에 대한 자동차세 경감은 현재에도 시행되고 있는 사항으로 대입공식은 다음과 같습니다</figcaption>
+                            <img src="./img/box08_pic02.png.png" alt="내용2">
+                        </figure>
+                    </dd>
+                    <dt>부가세 환급을 받을 수 있는 차종 및 조건은 무엇인가요?</dt>
+                    <dd>
+                        <figure>
+                            <figcaption>개인 또는 법인 사업자 명의로 등록하는 경우 9인승 이상의 차량이나 경차, 화물차 구입시 부가세를 환급 받으실 수 있습니다. (단, 면세사업자 제외)</figcaption>
+                            <img src="./img/box08_pic03.png.png" alt="내용3">
+                        </figure>
+                    </dd>
+                    <dt>차량에 부과되는 세금은 어떤 종류가 있나요?</dt>
+                    <dd>
+                        <figure>
+                            <figcaption>현행 자동차관련 세금항목은 다음과 같습니다.<br>
+                                ① 구입단계 : 개별소비세(8인승 이하 승용차한), 교육세(개소세의 30%), 부가가치세
+                                
+                                ② 등록단계 : 등록세, 취득세
+                                
+                                ③ 소유단계 : 자동차세(연단위 부여)
+                                
+                                ④ 유류관련 : 교통세, 주행세, 교육세, 부가가치세
+                                
+                                ⑤ 기타 : 공채매입, 환경개선비용부담금(해당자동차한)</figcaption>
+                            <img src="./img/box08_pic04.png.png" alt="내용4">
+                        </figure>
+                    </dd>
+                </dl>
+            </section>
+            <!-- as -->
+            <section class="as">
+                <h6>A/S 안내</h6>
+                <p><img src="./img/box08_pic05.jpg" alt="as사진"></p>
+                <dl>
+                    <dt>제네시스 커넥티드 서비스 단말기에 문제가 있으시면 현대자동차 하이테크센터에 방문 해 주세요.
+                        전국 하이테크센터 운영시간은 평일 : 08:30~17:30(토,일요일 및 법적 공휴일 휴무) 입니다. 단말기에 이상이 있을 때 찾아주세요.</dt>
+                    <dd>- 제네시스 커넥티드 서비스의 A/S는 차량의 오디오, TV, 내비게이션의 고장시 고객이 A/S를 받았던 방식과 동일하게 현대 웰슨을 통해 제공됩니다. 현대 웰슨은 현대자동차, 제네시스에 장착된 AV, 내비게이션의 A/S를 담당하는 협력업체로서, 현대 하이테크센터에서 A/S를 제공하고 있으며, 이 외에 전국 115개 협력점을 통해서도 서비스를 받으실 수 있습니다.</dd>
+                    <dd>- 제네시스 커넥티드 서비스 단말기의 하드웨어 결함, 파손 및 소프트웨어 오류 등의 사유로 단말기를 수리 또는 교체가 필요 하거나 지도 및 소프트웨어의 업그레이드 요망 시, 전국 하이테크센터로 전화하시면 자세한 상담 및 가까운 A/S 점 안내를 받으실 수 있습니다.</dd>
+                    <dd>※ 서비스 네트워크 찾기에서 하이테크센터로 선택 후 검색하시면 됩니다.</dd>
+                </dl>
+                <p>
+                    <button>하이테크센터 찾기</button>
+                </p>
+            </section>
+        </div>
+    </article>
+    <!--  -->
+
+    <!-- footer -->
+    <footer>
+        <div>
+            <img src="./img/logo.png" alt="제네시스 로고">
+            <small>© Copyright 2023 Hyundai Motor Company.</small>
+            <div id="url">
+                <ul>
+                    <!-- 아이콘 넣기 -->
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+                </div>
+        </div>
+    </footer>
+   </div>
+</body>
+</html>
